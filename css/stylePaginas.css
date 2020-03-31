@@ -1,0 +1,1073 @@
+cajarConTabla* {
+margin: 0;
+padding: 0;
+font-size: 12px;
+font-family: 'Bitter', 'Times New Roman', Times, serif;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+
+}
+
+.colores{
+	background-color: seagreen;
+}
+
+body{
+	background: #fff;
+}
+
+.logo-nav img{
+	background: ;
+	margin-top: 0.5rem;
+	display: flex;
+	float: left;
+}
+
+.btn-menu{
+	display: none;
+}
+
+
+.nav{
+	background: #53D9FA;
+	position: relative;/*para que el menu este sobre los demas elmentos si hay problemas lo aumento*/
+	z-index: 1000;/*para que el menu este sobre los demas elmentos si hay problemas lo aumento*/
+	max-width: 1080px;
+	width: 100%;/*esto controla el ancho de l barra azual al minimizar*/
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav .imag{
+
+}
+
+.nav .cuerpo{
+	display: flex;
+	flex-flow: row;
+}
+
+.nav .cerrar{
+	width: 6em;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.nav li a{
+	background-color: #53D9FA;
+	color: #000;
+	width: 100%;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: flex;
+}
+
+.nav li a:hover{
+	background-color: #1c7ff1;
+}
+
+.nav a span{
+	padding-right: 0.5em;
+}
+
+.nav > li{
+	float: left;
+}
+
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover > ul{
+	display: block;
+}
+.nav li ul li{
+	position: relative;
+}
+
+.nav li ul li ul{
+right: -140px;
+top: 0;
+}
+
+#iconSalida{/*Icono del boton salida*/
+	width: 30px;
+	height: 30px;
+	background: wheat;
+}
+/*con <span class="caret icon-arrow-down6"></span> colocamos la flechita en el menu*/
+/*stilos para el resto de las paginas, salvo el index*/
+input:hover{
+background: #cbf8d7;
+}
+select:hover{
+background: #cbf8d7;
+}
+textarea:hover{
+background: #cbf8d7;
+}
+/* css para la ayuda*/
+.ayuda{
+margin-top: 6px ;
+}
+/*CSS para http://localhost/controlcondominio/index.php*/
+.cajaIndex .regist {
+margin: 5% 0 2% 30%;
+
+}
+
+
+.cajaEntrada{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.cajaEntrada .column{
+	margin-left: -10rem;
+	display: inline-flex;
+	flex-flow: row;
+	align-content: center;
+}
+.cajaEntrada .column1{
+padding-right: 20px;
+display: flex;
+flex-flow: row;
+flex: 2 1 3%;
+order: 1;
+}
+.cajaEntrada .column1 span{
+width: 8em;
+margin-bottom: 8px;
+-webkit-border-radius: 10px 10px;
+-moz-border-radius: 10px 10px;
+}
+.cajaEntrada .column1 input{
+width: 30em;
+margin: 0 0 8px 3px;
+-webkit-border-radius: 10px 10px;
+-moz-border-radius: 10px 10px;
+}
+.cajaEntrada .column2{
+padding-right: 0.7%;
+display: flex;
+flex-flow: row;
+flex: 2 1 1%;
+order: 2;
+}
+.cajaEntrada .column2 span{
+width: 8em;
+margin-bottom: 8px;
+-webkit-border-radius: 10px 10px;
+-moz-border-radius: 10px 10px;
+}
+.cajaEntrada .column2 input,select{
+width: 20em;
+margin: 0 0 8px 3px;
+-webkit-border-radius: 10px 10px;
+-moz-border-radius: 10px 10px;
+}
+.cajaEntrada .column3{
+display: flex;
+flex-flow: row;
+flex: 2 1 2%;
+order: 3;
+}
+
+.cajaEntrada .column3 span{
+width: 8em;
+margin-bottom: 8px;
+-webkit-border-radius: 10px 10px;
+-moz-border-radius: 10px 10px;
+}
+
+.cajaEntrada .column3 input{
+width: 28em;
+margin: 0 0 8px 3px;
+-webkit-border-radius: 10px 10px;
+-moz-border-radius: 10px 10px;
+}
+
+/*css para el titulo*/
+.titulo{
+	margin-top: 40px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.titulo .columna1{
+	display: flex;
+	flex-flow: row;
+	flex: 5 1 10%;
+	order: 1;
+}
+
+.titulo .columna2{
+	display: flex;
+	flex-flow: row;
+	flex: 4 1 5%;
+	order: 2;
+	justify-content: space-around;
+}
+
+.titulo .columna2 span{
+	font-size: 4rem;
+	color: #006505;
+}
+
+/* controla los iconos de l parte de arriba*/
+.titulo .columna3 span{
+	font-size: 4rem;
+	color: #006505;
+}
+
+.titulo .columna2 span:hover{
+	color: #001365;
+}
+
+.titulo .columna3 span:hover{
+	color: #001365;
+}
+
+.titulo .columna3{
+	display: flex;
+	flex-flow: row;
+	flex: 4 1 5%;
+	order: 3;
+	justify-content: space-around;
+}
+
+/* para el encabezado de los reportes*/
+.titulo .columna4{/*columna del centro*/
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+	flex: 6 1 50%;
+	order: 2;
+}
+
+
+.cajaReportes{
+display: flex;
+flex-flow: row;
+align-content: center;
+}
+.cajaReportes .columna1 {
+width: 50%;
+font-size: 18px;
+margin-left: 30px;
+display: flex;
+flex-flow: row;
+}
+
+.cajaReportes .columna1 .ladoA{
+width: 8px;
+display: flex;
+flex-flow: column;
+flex: 1 0 0;
+order: 1;
+}
+.cajaReportes .columna1 .ladoB{
+display: flex;
+flex-flow: column;
+flex: 4 1 1%;
+order: 2;
+}
+.cajaReportes .columna2{
+text-align: center;
+display: flex;
+flex-flow: column;
+flex: 2 1 5%;
+order: 3;
+
+}
+/*fin css para el titulo*/
+/*css para el junta*/
+.junta{
+margin-top: 20px;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+align-items: center;
+}
+
+.junta .columna1{
+margin-bottom: 3%;
+display: flex;
+flex-flow: row;
+order: 1;
+}
+.junta .columna2{
+display: flex;
+flex-flow: row;
+order: 2;
+}
+/*fin css para el junta*/
+.ayuda{
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+}
+
+
+.cajaresidencia{
+	display: flex;
+	flex-flow: row;
+	align-content: center;
+}
+
+.cajaresidencia .column1{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	flex: 2 1 10%;
+	order: 1;
+}
+
+.cajaresidencia .column1 input{
+	margin: 0 7px 7px 0;
+	width: 290px;
+}
+
+.cajaresidencia .column1 span{
+	margin: 0 0 7px 0;
+	width: 110px;
+}
+
+.cajaresidencia .column2{
+	display: flex;
+	flex-flow: row;
+	flex: 2 1 3%;
+	order: 2;
+}
+
+.cajaresidencia .column2 input{
+	margin: 0 7px 7px 0;
+	width: 290px;
+}
+
+.cajaresidencia .column2 select{
+	margin: 0 7px 7px 0;
+	width: 290px;
+}
+
+.cajaresidencia .column2 span{
+	margin: 0 7px 7px 0;
+	width: 110px;
+}
+
+.cajaresidencia .column3{
+	padding-right: 20px;
+	display: flex;
+	flex-flow: row;
+	flex: 2 1 3%;
+	order: 3;
+}
+
+.cajaresidencia .column3 input{
+	margin: 0 7px 7px 0;
+	width: 225px;
+}
+
+.cajaresidencia .column3 span{
+	margin: 0 0 7px 0;
+}
+
+.cajaresidencia .column3 .radio{
+	margin-left: 1rem;
+	width: 12rem;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+
+.cajarConTabla{
+	display: flex;
+	flex-flow: row;
+	align-content: center;
+}
+
+.cajarConTabla .column1{
+	display: flex;
+	flex-flow: row;
+	justify-content: ;
+	flex: 1 1 2%;
+	order: 1;
+}
+
+.cajarConTabla .column1 input{
+	margin: 0 7px 7px 0;
+}
+
+.cajarConTabla .column1 span{
+	margin: 0 0 7px 0;
+}
+
+.cajarConTabla .column1 .tipox{
+	display: flex;
+	flex-flow: column;
+}
+
+
+#tipos, #presenta{
+	padding-left: 1rem;
+	font-size: 2.5rem;
+}
+
+#tipos,#presenta:hover{
+	color: seagreen;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+form .ingreso{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.cajarConTabla .column2{
+display: flex;
+flex-flow: row;
+justify-content: space-around;
+flex: 2 1 90%;
+order: 2;
+}
+.cajarConTabla .column2 .tabla{
+margin: 0 7px 7px 30px;
+width: 100%;
+}
+
+.cajarConTabla .column1 .gasto{
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+}
+.cajarConTabla form .gasto{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+.cajarConTabla form #cerrando{
+	display: flex;
+	justify-content: space-between;
+}
+.cajarConTabla .column3{
+	padding-right: 20px;
+	display: flex;
+	flex-flow: row;
+	flex: 2 1 3%;
+	order: 3;
+}
+
+.cajarConTabla .column3 input{
+	margin: 0 7px 7px 0;
+	width: 225px;
+}
+
+.cajarConTabla .column3 span{
+	margin: 0 0 7px 0;
+}
+
+.cajaServicios{
+	display: flex;
+	flex-flow: row;
+	align-content: center;
+}
+
+.cajaServicios .column1{
+	display: flex;
+	flex-flow: row;
+	justify-content: ;
+	flex: 0 3 1%;
+	order: 1;
+}
+
+.cajaServicios .column1A{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	display: flex;
+	flex-flow: row;
+	justify-content: ;
+	flex: 0 1 auto;
+	order: 2;
+}
+
+.cajaServicios .column1A select{
+	margin: 0;
+}
+
+.cajaServicios .column2{
+	display: flex;
+	flex-flow: row;
+	justify-content: ;
+	flex: 4 1 auto;
+	order: 3;
+}
+
+.cajaServicios .column3{
+	display: flex;
+	flex-flow: row;
+	justify-content: ;
+	flex: 1 1 2%;
+	order: 4;
+}
+
+
+
+.cajaConCrud{
+	display: flex;
+	flex-flow: row;
+}
+
+.cajaConCrud .columna1{
+	margin-top: 4em; 
+	padding-right: 1em; 
+	text-align: center;
+	display: flex;
+	flex-flow: row;
+	flex: 1 1 1%;
+	order: 1;
+}
+
+.cajaConCrud .columna1 span{
+	width: 6em;
+	height: 2.5em;
+	display: flex;
+	flex-flow: column;
+}
+
+.cajaConCrud .columna2{
+	display: flex;
+	flex-flow: column;
+	flex: 5 1 3%;
+	order: 2;
+}
+
+
+/*formato para la caja de ingresar y resetear del index.php*/
+.formIngresar{
+background: #bad7f3af;
+box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
+border: 1px solid #cdddec;
+-webkit-border-radius: 10px 10px;
+-moz-border-radius: 10px 10px;
+padding: 10px;
+margin: 20px auto;
+width: 390px;
+height: 390px;
+position: relative;
+
+}
+/*fin formato para la caja de ingresar*/
+/*formato de letras usadas en el index.php*/
+.letra{
+margin-top: 14px;
+font-family: "Cottonwood";
+font-style: italic;
+color: darkblue;
+}
+/*Fin formato de letras usadas en el index.php*/
+/*css para los imput dentro de la caja ingresar*/
+.formIngresar .input{
+-webkit-border-radius: 10px 10px;
+-moz-border-radius: 10px 10px;
+width: 100%;
+height: 40px;
+color: #000;
+margin:4% 0 0 0;
+padding-left: 15px;
+border: none;
+outline: none;
+}
+/*css para los imput dentro de la caja ingresar*/
+/*css para el boton de la caja ingresar*/
+.ayud{
+margin-top: 36%;
+border: 1px solid #eebb55;
+border-radius: 7pt;
+min-width: 100%;
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.ayudindex{
+	margin-top: 10%;
+	border: 1px solid #eebb55;
+	border-radius: 7pt;
+	min-width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.topindex{
+	width: 16em;
+	margin: -2em 0 0 -8em;
+}
+
+.topreseteo{
+	width: 23em;
+	margin: -2em 0 0 -3em;
+}
+
+.topreseteo form{
+	width: 17em;
+	margin: 1em 0 0 0.5em;
+}
+
+.topregist{
+	width: 23em;
+	margin: -2em 0 0 -3em;
+}
+
+.topregist .registro{
+	width: 30em;
+	margin: 1em 0 0 0.5em;
+	display: flex;
+	flex-flow: row;
+}
+
+.topregist .registro input{
+	width: 15em;
+	margin: 0.2em;
+}
+
+
+
+/*formato para la caja de ingresar del index.php*/
+/*formato para la caja registrar del index.php*/
+/*formato para la caja registrar*/
+.formRegistrar{
+background: #bad7f3af;
+box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
+border: 1px solid #cdddec;
+-webkit-border-radius: 10px 10px;
+-moz-border-radius: 10px 10px;
+padding: 10px;
+margin: 25px auto;
+width: 690px;
+height: 390px;
+position: relative;
+
+}
+/*fin formato para la caja de registrar */
+/*css para los imput dentro de la caja registrar*/
+.formRegistrar .input{
+-webkit-border-radius: 10px 10px;
+-moz-border-radius: 10px 10px;
+width: 100%;
+height: 40px;
+color: #000;
+margin:4% 0 0 0;
+padding-left: 15px;
+border: none;
+outline: none;
+}
+/*coloca en columnas*/
+.regist{
+width: 100%;
+margin-bottom: 2%;
+display: flex;
+flex-flow: row nowrap;
+}
+.regist span{
+width: 120px;
+}
+.regist .usuA{
+width: 8%;
+padding-right:11% ;
+}
+.regist .usuB{
+width: 25%;
+padding: 0 0.3% 0 0.3%;
+}
+.regist .usuC{
+width: 14%;
+padding: 0 0.3% 0 0.3%;
+}
+.regist .usuC input{
+text-align: center;
+}
+.regist .usuD{
+width: 40%;
+padding: 0 0.3% 0 0.3%;
+}
+.regist2 span{
+width: 120px;
+}
+.regist2{
+margin-bottom: -1%;
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+}
+.regist2 .usuA{
+width: 9%;
+}
+.regist2 .usuB{
+width: 30%;
+padding: 0 6.8% 0 0.3%;
+}
+.regist2 .usuC{
+width: 20%;
+padding: 0 0.3% 0 0.3%;
+}
+/*fin coloca dos columnas*/
+/*controla las dos columnas*/
+.formRegistrar .regist .a {
+margin-top: -8px;
+padding-right: 12px;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.formRegistrar .regist .b {
+width: 60%;
+display: flex;
+flex-wrap: wrap;
+}
+/*fin controla las dos columnas*/
+/*css para boton personalizado*/
+.boton_personalizado:hover{
+opacity: 0.6;
+text-decoration: none;
+background-color: #4CAF50; /* Green */
+color: white;
+}
+.button {
+display: inline-block;
+border-radius: 12px;
+background: transparent;
+border: 3px double #006505;
+text-decoration: none;
+font-family: helvetica;
+font-style: italic;
+color: #006505;
+text-align: center;
+padding: 8px;
+width: 95px;
+box-shadow: 0 6px 4px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+.button:hover{
+opacity: 0.6;
+text-decoration: none;
+background-color: #ddf7e4; /* Green */
+color: white;
+}
+
+
+/*boton en empleados*/
+#nuevo span{
+font-size: 2rem;
+}
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+color: white;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+/*css para el boton de la caja ingresar*/
+.ayudR{
+margin-top: 5%;
+border: 1px solid #eebb55;
+border-radius: 7pt;
+min-width: 100%;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+/*fin formato para la caja de registrar del index.php*/
+/*css para el boton de la caja resetear*/
+.ayudRe{
+margin-top: 19%;
+border: 1px solid #eebb55;
+border-radius: 7pt;
+min-width: 100%;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+}
+/*Fin CSS para http://localhost/controlcondominio/index.php*/
+/*css para la foto de index_entrada*/
+.foto{
+width: 30px;
+border: 1px solid #eebb55;
+border-radius: 7pt;
+}
+/*fin css para la foto de index_entrada*/
+footer {
+position: absolute;
+bottom: 0;
+width: 50%;
+height: 40px;
+}
+
+
+#dataTables{
+	border: none;
+}
+
+
+/*css iconos en tablas*/
+.icono{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+/*css menu arriba*/
+.menuCSS3{
+margin-top: 4px;
+}
+.menuCSS3 ul {
+display: flex;
+padding: 0;
+margin: 0;
+list-style: none;
+justify-content: space-between;
+}
+.menuCSS3 a {
+display: block;
+padding: 0.5em;
+text-decoration: none;
+color: rgb(52, 86, 196);
+}
+.menuCSS3 a:hover {
+header	background-color: rgb(241, 239, 237);
+}
+.menuCSS3 ul li ul {
+display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+display: block;
+position: absolute;
+background: rgb(216, 225, 250);
+}
+/*fin css menu arriba*/
+.menuCSS4 ul {
+display: flex;
+padding: 0px 0 0 0;
+margin: 10px 0 0 9px;
+list-style: none;
+}
+.menuCSS4 a {
+display: block;
+padding: 3px;
+margin: 0.2em 0 0 4.9em;
+text-decoration: none;
+color: #191C26;
+}
+/*css para el mensaje de respuesta al modificar*/
+.mensaje, .mensajeError {
+color: #f205e9;
+font-size: 24px;
+}
+.estilotextarea {border: 2px solid #990000;font-family: Garamond,verdana;font-size: 12pt;
+font-weight: bold;letter-spacing: 3px;}
+/*
+Como se puede ver, se han definido en esta ocasión varios estilos para las tipografías que se van a utilizar
+en el texto del textarea. En esta ocasión se ha definido una fuente garamond,
+y en su defecto, verdana. Un tamaño del texto de 18 puntos, negrita, y un espaciado entre letras de 5 píxeles.
+*/
+/*MODALES*/
+.modal-body .datosA .datosB .datosC {
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+
+}
+#nombre{
+width: 19em;
+}
+#cedula{
+width: 9em;
+}
+#telef{
+width: 9em;
+}
+#email{
+width: 14em;
+}
+#direccion{
+width: 23em;
+}
+#cargo{
+width: 9em;
+}
+#salario{
+width: 8em;
+}
+#fechaIng{
+width: 12em;
+}
+.datosB .labelC{
+width: 100%;
+}
+/*===============================MEDIA QUERI=============================================*/
+@media screen and (max-width: 800px){
+body{
+font-family: 'Bitter', sans-serif;
+font-size: 5px;
+text-shadow: 4px 4px 4px #aaa;
+}
+.fotos{
+display: none;
+}
+.letra{
+font-size: 1.5rem;
+}
+
+
+.titulo .columna2 span{
+	font-size: 3rem;
+	color: #006505;
+}
+
+.cajaIndex .regist {
+	margin: 5% 0 2% 0%;
+}
+
+.cajaIndex input{
+font-size: 1rem;
+font-weight: bold;
+}
+.cajaIndex .regist .usuB{
+padding-left: 20%;
+width: 100%;
+
+}
+.cajaEntrada{
+margin: -10px 0 0 -10px;
+}
+
+.cajaEntrada .column{
+display: flex;
+flex-flow: column;
+}
+
+.cajaresidencia{
+margin: -10px 0 0 5px;
+width: 100%;
+display: flex;
+flex-flow: column;
+}
+
+.cajaresidencia span{
+width: 10rem;
+}
+
+.cajaresidencia .column1 input{
+margin-left: 1rem;
+width: 25rem;
+}
+.cajaresidencia .column2 input{
+width: 25rem;
+}
+.cajaresidencia .column2 select{
+width: 25rem;
+margin-left: .1rem;
+}
+.cajaresidencia .column3 span{
+width: 11rem;
+}
+
+.cajaresidencia .column3 select{
+width: 25rem;
+margin-left: 1rem;
+}
+.cajaresidencia .column3 textarea{
+width: 25rem;
+margin-left: 1rem;
+}
+
+/*MODALES*/
+.datosCliente input{
+font-size: 0.8em;
+font-weight: bold;
+}
+.datosCliente select{
+font-size: 0.8em;
+font-weight: bold;
+}
+
+.modal-body .datosA .datosB .datosC {
+display: flex;
+flex-flow: nowrap;
+justify-content: space-between;
+
+}
+#nombre{
+width: 19em;
+
+}
+#cedula{
+width: 10em;
+}
+#telef{
+width: 10em;
+}
+#email{
+width: 15em;
+}
+#direccion{
+width: 24em;
+}
+#cargo{
+width: 7em;
+}
+#salario{
+width: 7em;
+}
+#nomina{
+width: 9.5em;
+}
+#fechaIng{
+width: 15em;
+}
+.datosB .labelC{
+width: 100%;
+}
+}

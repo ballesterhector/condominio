@@ -1,0 +1,350 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/*formato para la caja de ingresar y resetear del index.php*/
+.formIngresar{
+	background: #bad7f3af;
+	box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
+	border: 1px solid #cdddec;
+	-webkit-border-radius: 10px 10px;
+	-moz-border-radius: 10px 10px;
+	padding: 10px;
+	margin: 30px auto;
+	width: 290px;
+	height: 250px;	
+}
+/*fin formato para la caja de ingresar*/
+
+/*css para los imput dentro de la caja ingresar*/
+.formIngresar .input{
+	-webkit-border-radius: 10px 10px;
+	-moz-border-radius: 10px 10px;
+	width: 100%;
+	height: 40px;
+	color: #D12E2E;
+	margin:4% 0 0 0;
+	padding-left: 15px;
+	border: none;
+	outline: none;
+}
+
+/*ESTILOS PARA EL H1*/
+#titulo{
+	position: relative;
+	margin-top: 0.5em;
+	font-size: 2rem;
+	line-height: 1,6em;
+}
+
+h3{
+	position: relative;
+	color: blue;
+	font-size: 2rem;
+	line-height: 1,6em;
+}
+/*css para el boton de la caja ingresar*/
+.ayudR{
+	margin-top: 5%;
+	border: 1px solid #eebb55;
+	border-radius: 7pt;
+	min-width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+/*fin formato para la caja de registrar del index.php*/
+
+/*css para el boton de la caja ingresar*/
+.ayud{
+	margin-top: 10%;
+	border: 1px solid #eebb55;
+	border-radius: 7pt;
+	min-width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+
+/*css para el boton de la caja resetear*/
+
+
+.ayudRe{
+	margin-top: 9%;/
+	border: 1px solid #eebb55;
+	border-radius: 7pt;
+	min-width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+/*Fin CSS para http://localhost/controlcondominio/index.php*/
+
+/*formato para la caja registrar*/
+.formRegistrar{
+	background: #bad7f3af;
+	box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
+	border: 1px solid #cdddec;
+	-webkit-border-radius: 10px 10px;
+	-moz-border-radius: 10px 10px;
+	padding: 10px;
+	margin: 25px auto;
+	width: 390px;
+	height: 340px;
+}
+/*fin formato para la caja de registrar */
+
+/*css para los imput dentro de la caja registrar*/
+.formRegistrar .input{
+	-webkit-border-radius: 10px 10px;
+	-moz-border-radius: 10px 10px;
+	width: 50%;
+	height: 35px;
+	font-size: 10px;
+    color: #000;
+	margin: 4% 0 0 0;
+	padding-left: 15px;
+	border: none;
+	outline: none;
+}
+
+/*controla las dos columnas*/
+.formRegistrar .regist .a {
+	margin-top: -8px;
+	padding-right: ;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*formato para la caja de resetear del index.php*/
+.formResetar{
+	background: #bad7f3af;
+	box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
+	border: 1px solid #030303;
+	-webkit-border-radius: 10px 10px;
+	-moz-border-radius: 10px 10px;
+	padding: 15px;
+	margin: 20px auto;
+	width: 280px;
+	height: 350px;
+	position: relative;
+}
+
+.formResetar .input{
+	-webkit-border-radius: 10px 10px;
+	-moz-border-radius: 10px 10px;
+	width: 100%;
+	height: 40px;
+	color: #000;
+	margin:4% 0 0 0;
+	padding-left: 15px;
+	border: none;
+	outline: none;
+}
+
+/*css para el boton de la caja ingresar*/
+.ayudR{
+	margin-top: 3%;
+	border: 1px solid #eebb55;
+	border-radius: 7pt;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+
+
+/*fin controla las dos columnas*/
+p{
+    margin-bottom: 1.1em;
+}
+
+.container{
+    width: 85%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+    background: transparent;
+    padding: 1.3rem 0;
+    position: fixed; /*deja el encabezado fijo colocandolo delante del texto, por lo que a la clase mein hay que modificarle el top*/
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header span{
+    padding-right: 10px;
+}
+
+
+.logo-nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-nav img{
+    margin-left: 2.5rem;;
+    display: flex;
+    float: left;
+}
+
+.menu-icon{
+    display: none;
+   
+}
+
+.navigation{
+    width: 80%;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: #4e4b4b;
+    font-size: 14px;
+    display: block;
+    padding: .5rem 1rem;
+    transition: all .4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: #8addf0;
+		transition: width 2s;
+}
+
+
+footer{
+    background: transparent;
+    padding: 2rem 0;
+    text-align: center;
+	margin-top: 4rem;
+	position: absolute;
+ 	bottom: 0;
+  	width: 80%;
+ 	height: 40px;
+  	color: #4e4b4b;
+}
+
+.main{
+    margin-top: 8.3rem;
+}
+
+section{
+   margin-top: -10px;
+}
+
+p {
+    margin-bottom: .3em; /*espacio entre parrafos*/
+}
+
+.foto{
+	width: 30px;
+	border: 1px solid #eebb55;
+    border-radius: 7pt;
+    float: right
+}
+
+@media screen and (max-width:940px) {
+    header nav ul li{
+        font-size: 40px;
+        display: block;
+        float: none;
+        border-bottom:1px solid #ffffff4d; 
+	}
+	
+	
+    .logo-nav{
+		display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu-icon{
+		display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        font-size: 40px;
+        color: #fff;
+    }
+    
+    .navigation ul{
+		width: 25%;
+		margin-left: 30px;
+	}
+	
+    .navigation ul{
+		display: none;
+    }
+	
+    .navigation ul.show{/*si tiene la clase show*/
+        display: block;
+    }
+	
+    .navigation ul li{
+		display: block;
+    }
+	
+    .navigation ul li a{
+		display: block;
+        padding: .5rem 0;
+        transition: all .4s linear;
+        border-radius: 5px;
+    }
+	
+    .foto{
+		display: none;
+    }
+	
+	section{
+		margin-top: 9em;
+	}
+	
+	.formIngresar{
+		margin-top: -10em;
+		margin-left: 120px;
+	} 
+	
+	.formRegistrar{
+		margin-top:-10em ;
+		margin-left: 6em;
+		width: 25em;
+	}
+
+	.formResetar{
+		margin-top:-11em ;
+		margin-left: 8em;
+		
+	}
+	
+	/*ESTILOS PARA EL H1*/
+	#titulo{
+		display: none;
+	}
+
+	h3{
+		font-size: 18px;
+	}
+	
+}
+
