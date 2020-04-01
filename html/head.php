@@ -91,15 +91,29 @@
                                         </li>
                                     </ul>
                                 </li>
-                                    <li><a href="#"><span class="icon-storefront"></span>Servicios</a>
+                                <li><a href="#"><span class="icon-storefront"></span>Servicios</a>
                                     <ul>
                                         <li><a href="gastosPorServicios.php"><span class="icon-apartment"></span>Registro</a></li>
                                         <li><a href="productos.php"><span class="icon-post_add"></span>gasto</a></li>
                                     </ul>
                                 </li>
+                                <li><a href="#"><span class="icon-storefront"></span>Cuota especial</a>
+                                    <ul>
+                                        <li><a href="empleados.php"><span class="icon-apartment"></span>Empleados</a></li>
+                                        <li><a href="productos.php"><span class="icon-post_add"></span>Sueldos</a></li>
+                                        <li><a href="compras.php?factura=0"><span class="icon-add_shopping_cart"></span>Vacaciones</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#"><span class="icon-storefront"></span>Nómina</a>
                                     <ul>
                                         <li><a href="empleados.php"><span class="icon-apartment"></span>Empleados</a></li>
+                                        <li><a href="productos.php"><span class="icon-post_add"></span>Sueldos</a></li>
+                                        <li><a href="compras.php?factura=0"><span class="icon-add_shopping_cart"></span>Vacaciones</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span class="icon-storefront"></span>Consultas</a>
+                                    <ul>
+                                        <li><a href="gastosdata.php?periodo=<?php echo date('m/Y') ?>"><span class="icon-apartment"></span>consul</a></li>
                                         <li><a href="productos.php"><span class="icon-post_add"></span>Sueldos</a></li>
                                         <li><a href="compras.php?factura=0"><span class="icon-add_shopping_cart"></span>Vacaciones</a></li>
                                     </ul>

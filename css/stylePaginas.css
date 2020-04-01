@@ -1,4 +1,4 @@
-cajarConTabla* {
+.cajarConTabla {
 margin: 0;
 padding: 0;
 font-size: 12px;
@@ -224,7 +224,7 @@ margin: 0 0 8px 3px;
 }
 
 .titulo .columna2 span{
-	font-size: 4rem;
+	font-size: 2.5rem;
 	color: #006505;
 }
 
@@ -422,6 +422,20 @@ justify-content: space-between;
 	flex-flow: column;
 }
 
+.cajaGastos{	
+	display: flex;
+	flex-flow: row;
+	align-content: center;
+}
+
+.cajaGastos .columna1{
+	margin-left: 4em;	
+}
+
+.cajaGastos .columna1 th,td{
+	width: 17em;
+	font-size: 0.3em;
+}
 
 #tipos, #presenta{
 	padding-left: 1rem;

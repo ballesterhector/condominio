@@ -12,7 +12,7 @@
         <script src="jsBody/bootstrap.min.js"></script>
         <script src="jsBody/bootstrap-submenu.min.js"></script>
         <script src="popper/popper.min.js"></script>
-        <script type="text/javascript" src="datatables/datatables.min.js"></script>
+        <script src="datatables/datatables.min.js"></script>
         <script src="jsBody/sweetalert.min.js"></script>
         <script src="jsBody/jsBarcode.all.min.js"></script>
     </div> 
